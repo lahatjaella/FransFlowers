@@ -1,0 +1,64 @@
+body {
+    color: #6B4D57; 
+    background-color: #DDC8C4;
+    font-family: "Josefin Sans", sans-serif; /* Lighter background for better contrast */
+}
+
+header {
+    color: #3F2A32; /* Darker color for better readability */
+    font-family: "Playwrite MX", cursive;
+    font-size: 38px; /* Large font size for better readability */
+}
+
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    border-top: medium double #6B4D57;
+    color: #6B4D57;
+    text-align: center;
+}
+
+hr:after {
+    content: "ꕥ";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #DDC8C4; /* Match background color for consistency */
+}
+
+h2 {
+    color: #3F2A32; /* Added color for better readability */
+    font-family: "DM Serif Text", serif;
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+
+
+#donation {
+    color: #3F2A32; /* Updated donation id color for better readability */
+    font-weight: bold;
+}
+
+h5 {
+    text-decoration: line-through;
+}
+
+
+address {
+    color: #3F2A32; /* Updated address color for better readability */
+    font-weight: bold;
+}
+
+img {
+    border-radius: 50%;
+}
+
+
+/* Updated specials class background and text color for better contrast */
+.specials {
+    background-color: #6B4D57; /* Slightly darker for better contrast */
+    color: #EFF9F0; /* Changed to white for better contrast */
+}
